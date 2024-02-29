@@ -1,0 +1,144 @@
+.github-profile {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.user {
+  width: 50rem;
+  height: 30rem;
+  display: flex;
+}
+
+.user-info {
+  padding: 0px 20px;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.user-info img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  gap: 10px;
+}
+
+.info a,
+.svg a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.username {
+  font-size: 30px;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user-repositorio {
+  padding: 0px 20px;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #3333;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.repos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+  text-align: left;
+}
+
+.repo {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+}
+
+.repo-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+.titulo a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.titulo span {
+  font-size: 13px;
+  background-color: #111;
+  padding: 3px 10px;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+.detalles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form {
+  width: 50rem;
+  margin: 10px;
+}
+
+.form input {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.form button {
+  width: 10%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  background-color: #3333;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.qr-generator {
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-generator input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.qr-generator button {
+  padding: 10px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  color: #fff;
+  background-color: #222;
+  cursor: pointer;
+}
+
+.qr-code {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}

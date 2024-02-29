@@ -1,0 +1,41 @@
+.tic-tac-toe {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.tic-tac-toe::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.restart {
+  padding: 20px 30px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.square {
+  background-color: #222;
+  border: 3px solid #333;
+  float: left;
+  font-size: 40px;
+  padding: 0px;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+  color: #fff;
+}

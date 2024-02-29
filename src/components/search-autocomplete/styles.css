@@ -1,0 +1,36 @@
+.search-automplete {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-automplete input {
+  width: 40rem;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.suggestions {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.search-automplete span {
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
